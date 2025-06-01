@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #56ccf2, #B50D1C);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav a {
+  color: #B50D1C;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #56ccf2;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #B50D1C;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background: #B50D1C;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px;
+}
