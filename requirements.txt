@@ -1,4 +1,5 @@
-flask
+Flask
 pandas
-plotly
+openpyxl
 gunicorn
+plotly
